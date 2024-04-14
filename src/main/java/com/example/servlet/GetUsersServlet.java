@@ -12,7 +12,7 @@ import java.io.IOException;
 @WebServlet("/users")
 public class GetUsersServlet extends HttpServlet {
 
-    final private String REDIRECT_URL = "users.jsp";
+    private final static String REDIRECT_URL = "users.jsp";
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
